@@ -12,8 +12,8 @@ The repository holds two schemas, each with a purpose:
 
 ### Deprecation
 
-For future projects, the project recommends to separate the manhole database with the pipe database. One manhole can have more than two (2) connections, thus the current implementation using upstream and downstream connections is too limiting.
+For future implementations, the project recommends to separate the manhole database with the pipe database. One manhole can have more than two (2) connections, thus the current implementation (using only upstream and downstream) connections is too limiting.
 
-### A Recommended Future Implemenation
+### A Recommended Future Implemenations
 
-A one-to-many (manhole and pipe, respectively) relationship would be a better approximation of the drainage system. It is also closer to a Graph Network model. Which would unlock features associated with [Graph Theory](https://en.wikipedia.org/wiki/Graph_theory).
+A one-to-many (manhole and pipe, respectively) relationship would be a better approximation of the drainage system. It is also closer to a Graph Network model. Which would unlock features and analysis tools associated with [Graph Theory](https://en.wikipedia.org/wiki/Graph_theory).
