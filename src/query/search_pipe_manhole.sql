@@ -1,0 +1,1 @@
+SELECT "Start Structure", "Start Invert", "End Structure", "End Invert" FROM pipes JOIN strucs ON pipes."Start Structure" = strucs."Structure Name" OR pipes."End Structure" = strucs."Structure Name" WHERE "Structure Name" LIKE 'ERM-tf20';
